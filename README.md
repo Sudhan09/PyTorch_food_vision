@@ -1,21 +1,10 @@
 # PyTorch_food_vision
 
-PyTorch Model Deployment: FoodVision Big 🍔👁
+**PyTorch Model Deployment: FoodVision Big** 🍔👁
 
 **Overview**
 
 This project demonstrates an end-to-end workflow for deploying a deep learning model built using PyTorch. The goal is to classify images of food into 101 different categories using the EfficientNetB2 architecture. The model is deployed using Gradio, providing a user-friendly interface to make predictions on uploaded images. This project covers the entire process, from model training to deployment in a production environment.
-
-**Table of Contents**
-
-Project Overview
-Model
-Installation
-Usage
-Deployment
-Results
-Project Structure
-Model
 
 The model used in this project is based on EfficientNetB2, a powerful convolutional neural network architecture optimized for both performance and efficiency. The model has been trained to classify food images into one of 101 different categories, using the Food-101 dataset. Pre-trained weights were used to fine-tune the model for this specific task.
 
@@ -68,20 +57,4 @@ The project leverages Gradio to create an interactive web-based interface where 
 **Results:**
 
 The model achieves high accuracy in classifying food images, and predictions are made in under a second. The EfficientNetB2 model's fine-tuned version is efficient and performs well on a variety of food types.
-
-**Project Structure:**
-'''
-|-- README.md
-|-- requirements.txt
-|-- 09_pytorch_model_deployment.ipynb  # Main project notebook
-|-- app.py  # Flask or Gradio app for deployment
-|-- models/  # Trained model weights (optional)
-|   |-- efficientnetb2_weights.pth
-|-- data/  # Example data if necessary
-|   |-- sample_food_images/
-|-- examples/  # Example input and output
-|   |-- pizza.jpg
-|   |-- burger.jpg
-|-- docs/  # Documentation (optional)
-'''
 
