@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 **Usage**
 
-Run the notebook : Open the 09_pytorch_model_deployment.ipynb file in Jupyter Notebook or Jupyter Lab and execute the cells to see the model in action.
+Run the notebook : Open the pytorch_model_deployment.ipynb file in Jupyter Notebook or Jupyter Lab and execute the cells to see the model in action.
 Deploy with Gradio: To interact with the model via the Gradio interface, simply run the following command from your terminal or notebook:
 bash
 ```
