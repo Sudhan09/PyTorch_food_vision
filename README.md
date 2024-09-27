@@ -70,6 +70,7 @@ The project leverages Gradio to create an interactive web-based interface where 
 The model achieves high accuracy in classifying food images, and predictions are made in under a second. The EfficientNetB2 model's fine-tuned version is efficient and performs well on a variety of food types.
 
 **Project Structure:**
+
 |-- README.md
 |-- requirements.txt
 |-- 09_pytorch_model_deployment.ipynb  # Main project notebook
