@@ -14,7 +14,7 @@ To get started with this project, you need to clone the repository and install t
 
 # Clone the repository
 ```
-git clone https://github.com/your-username/pytorch-model-deployment.git
+https://github.com/Sudhan09/PyTorch_food_vision.git
 ```
 
 # Change into the directory
